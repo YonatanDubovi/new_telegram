@@ -9,7 +9,7 @@ import datetime
 import logging
 import sys
 
-ADD_REMINDER_TEXT = 'Add a reminder ?'
+ADD_REMINDER_TEXT = 'Add a reminder ⏰'
 INTERVAL = 30
 
 MODE = os.getenv("MODE")
@@ -92,4 +92,3 @@ if __name__ == '__main__':
     dataSource.create_tables()
     run()
     start_check_reminders_task()
-
